@@ -1,0 +1,320 @@
+#Main {
+    width: 700px;
+    height: 970px;
+    border: .1px solid #bbb;
+}
+
+#box-user-name-back {
+    font-size: 12px;
+    display: flex;
+    border: .1px solid rgba(173, 173, 173, 0.336);
+}
+
+#back {
+    font-size: 21px;
+    margin: 18px;
+    border-radius: 50px;
+    padding: 5px;
+    transition: .2s ease-in-out;
+}
+
+#back:hover {
+    background: #e2e2e2c4;
+    cursor: pointer;
+}
+
+#Tweets {
+    margin-top: -18px;
+}
+
+#matin {
+    margin-top: 2px;
+    color: rgb(77, 77, 77);
+}
+
+#header {
+    width: 100%;
+    height: 200px;
+    background-image: url(/src/components/images/download.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#user-box {
+    width: 160px;
+    margin: 20px;
+    color: rgb(62, 73, 95);
+    margin-top: 70px;
+}
+
+#user-img-box {
+    width: 160px;
+    margin-left: 20px;
+}
+
+#user-img-g {
+    width: 100%;
+    border-radius: 100px;
+    border: 5px solid #ffffff;
+    margin-bottom: -25px;
+    transform: translateY(100px);
+}
+
+#name-user {
+    font-size: 26px;
+    margin-bottom: -18px;
+    color: #444;
+}
+
+#user-name-e {
+    margin-left: 5px;
+    margin-bottom: -8px;
+}
+
+#dateBox {
+    display: flex;
+    align-items: center;
+    margin-top: -20px;
+}
+
+#date {
+    margin-left: 5px;
+}
+
+#following-followers {
+    margin-top: -20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#following-followers:hover {
+    text-decoration: underline;
+}
+
+#following {
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+#followers {
+    margin-left: 5px;
+}
+
+.Follow {
+    width: 120px;
+    margin: 20px;
+    height: 38px;
+    font-size: 18px;
+    border-radius: 100px;
+    border: none;
+    background: #0189ff;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.Follow:hover {
+    background: #0188ffb7;
+}
+
+.Following {
+    width: 120px;
+    margin: 20px;
+    height: 38px;
+    font-size: 18px;
+    border-radius: 100px;
+    border: none;
+    background: transparent;
+    color: #444;
+    border: .1px solid #bbb;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+#TweetsBox {
+    display: flex;
+}
+
+#tweets {
+    border: none;
+    width: 200px;
+    height: 50px;
+    background: transparent;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .1s ease-in-out;
+    border-bottom: .2px solid #bbb;
+}
+
+#tweets:hover {
+    background: #e2e2e2c4;
+}
+
+#btn {
+    border: none;
+    width: 200px;
+    height: 50px;
+    background: transparent;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(62, 73, 95, 0.63);
+    cursor: pointer;
+    border-bottom: .2px solid #bbb;
+}
+
+#btn:hover {
+    background: #e2e2e2c4;
+}
+
+#more {
+    font-size: 28px;
+    border-radius: 50px;
+    border: .5px solid #bbb;
+    cursor: pointer;
+}
+
+#follow-box {
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#blue {
+    width: 70px;
+    border: 1px solid #0189ff;
+}
+
+#boxs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#profile-user {
+    width: 100%;
+    display: flex;
+    border-bottom: .1px solid #bbb;
+}
+
+#profile_ {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    background-image: url("https://avatars.githubusercontent.com/u/79017406?s=400&u=afd722bfaa6bde4417c495ac110a8971e77c9432&v=4");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+}
+
+#names {
+    display: flex;
+    flex-direction: row;
+    font-size: 9px;
+    color: #444;
+}
+
+#name-user-r {
+    font-weight: 500;
+    margin-left: 10px;
+    color: rgb(62, 73, 95);
+}
+
+#more-e {
+    font-size: 28px;
+}
+
+#all {
+    width: 620px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#tweet-user {
+    width: 98%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#nav-icons {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+#nav-icons-box {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(62, 73, 95);
+}
+
+.hover {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#retweet:hover {
+    background: #f1ffee;
+    color: #5dcf00;
+}
+
+#heart:hover {
+    background: #ffeef4;
+    color: #e70000;
+}
+
+#blue-hover:hover {
+    background: #e6f3ff;
+    color: #0189ff;
+}
+
+#liked {
+    color: #e70059;
+}
+
+#liked:hover {
+    background: #ffeef4;
+    color: #e70000;
+}
+
+#liked-box {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+#liked-text {
+    font-size: 15px;
+    color: #e70059;
+}
+
+#like-text {
+    font-size: 15px;
+}
+
+#comment-tweet {
+    font-size: 15px;
+}
+
+#comment-tweet-box {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}

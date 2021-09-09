@@ -1,0 +1,114 @@
+#Left {
+    width: 250px;
+    height: 100vh;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#TwitterLogo {
+    font-size: 30px;
+    color: #0088ff;
+    margin-top: 15px;
+}
+
+#TwitterBox {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    transition: .3s ease-in-out;
+    padding: 3px;
+}
+
+#TwitterBox:hover {
+    background: #e6f3ff;
+    cursor: pointer;
+}
+
+#box {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    transition: .3s ease-in-out all;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+#box:hover {
+    background: #e2e2e2c4;
+    cursor: pointer;
+}
+
+#icon {
+    font-size: 25px;
+    color: #444;
+    margin-right: 8px;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+#Tweet {
+    width: 220px;
+    height: 52px;
+    background: #0088ff;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 600;
+    border: none;
+    border-radius: 50px;
+    transition: .3s ease-in-out;
+    outline: none;
+}
+
+#Tweet:hover {
+    background: #006fcf;
+    cursor: pointer;
+}
+
+#user {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    transition: .3s ease-in-out all;
+    font-weight: 700;
+    margin-top: 60px;
+}
+
+#user:hover {
+    background: #e2e2e2c4;
+    cursor: pointer;
+}
+
+#user-img{
+    width: 50px;
+    margin-right: 15px;
+    border-radius: 50px;
+}
+
+#name {
+    margin-bottom: -20px;
+}
+
+#user-name {
+    font-weight: 500;
+    color: #516c83;
+    margin-right: 17px;
+}
+
+#cg {
+    font-size: 18px;
+}
