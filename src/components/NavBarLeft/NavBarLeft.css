@@ -1,11 +1,13 @@
 #Left {
-    width: 250px;
+    width: 300px;
     height: 100vh;
     padding-left: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+    transform: translateX(-20px);
+    position: fixed;
 }
 
 #TwitterLogo {
@@ -79,7 +81,6 @@
 #user {
     padding-left: 10px;
     padding-right: 10px;
-    margin-top: 5px;
     border-radius: 50px;
     display: flex;
     align-items: center;

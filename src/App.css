@@ -1,6 +1,100 @@
 #container {
     width: 100%;
-    height: 100vh;
     display: flex;
     justify-content: space-evenly;
+}
+
+#fixed {
+    width: 250px;
+    height: 100vh;
+}
+
+#profile-box-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+#profile-box-container:hover {
+    background: #ddddddb9;
+}
+
+#profile-chanel {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-position: center;
+    background-size: cover;
+}
+
+#names-user {
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#users-names {
+    font-size: 15px;
+}
+
+#user-name-is {
+    transform: translateY(-30px);
+    color: rgba(62, 73, 95, 0.795);
+}
+
+#profile-box-chanel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+}
+
+#Follow_ {
+    width: 90px;
+    height: 32px;
+    font-size: 15px;
+    border-radius: 100px;
+    border: none;
+    background: #0189ff;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    margin-right: 10px;
+}
+
+#Follow_:hover {
+    background: #0188ffb7;
+}
+
+#Following {
+    width: 90px;
+    height: 32px;
+    font-size: 15px;
+    border-radius: 100px;
+    background: transparent;
+    color: #444;
+    border: .1px solid #bbb;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    margin-right: 10px;
+}
+
+#very {
+    display: flex;
+    align-items: center;
+}
+
+#verified {
+    margin-left: 5px;
+    color: #0189ff;
 }

@@ -17,11 +17,13 @@ const Main = () => {
 
   return (
     <div id="Main">
-      <div id="box-user-name-back">
-        <BiArrowBack id="back" />
-        <div>
-          <h1 id="matin">matinturkaman</h1>
-          <p id="Tweets">22 Tweets</p>
+      <div id="box-user-name-back-box">
+        <div id="box-user-name-back">
+          <BiArrowBack id="back" />
+          <div>
+            <h1 id="matin">matinturkaman</h1>
+            <p id="Tweets">22 Tweets</p>
+          </div>
         </div>
       </div>
       <div id="header">
@@ -73,6 +75,8 @@ const Main = () => {
       <Tweet comment="51" like="120" tweet="😎 بسیار باگ تا پخته خامی " />
       <Tweet comment="210" like="403" tweet="React js یادگیری" />
       <Tweet comment="105" like="220" tweet="روبه بالا 💻" />
+      <Tweet comment="654" like="825" tweet="فقط انجامش بده🧨" />
+      <Tweet comment="453" like="504" tweet="هرچیزی تلاش میخواد" />
     </div>
   );
 };

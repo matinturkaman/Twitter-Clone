@@ -1,13 +1,19 @@
 #Main {
     width: 700px;
-    height: 970px;
+
+    height: fit-content;
     border: .1px solid #bbb;
 }
 
 #box-user-name-back {
+    width: 51.6%;
+    height: 55px;
     font-size: 12px;
     display: flex;
-    border: .1px solid rgba(173, 173, 173, 0.336);
+    position: fixed;
+    border-bottom: .1px solid rgba(173, 173, 173, 0.336);
+    background: white;
+    z-index: 10;
 }
 
 #back {
