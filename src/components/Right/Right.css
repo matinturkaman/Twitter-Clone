@@ -207,3 +207,9 @@
 #terms:hover {
     text-decoration: underline;
 }
+
+@media screen and (min-width: 320px) {
+    #right {
+        display: none;   
+    }
+}

@@ -113,3 +113,9 @@
 #cg {
     font-size: 18px;
 }
+
+@media screen and (min-width: 320px) {
+    #Left {
+        display: none;
+    }
+}

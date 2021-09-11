@@ -98,3 +98,28 @@
     margin-left: 5px;
     color: #0189ff;
 }
+
+@media screen and (min-width: 320px) {
+    #fixed {
+        width: 80px;
+    }
+}
+
+@media screen and (min-width: 320px) {
+    #fixed {
+        width: 80px;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    #fixed {
+        width: 25px;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    #fixed {
+        width: 0px;
+    }
+}
+
