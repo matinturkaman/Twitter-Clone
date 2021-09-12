@@ -3,12 +3,14 @@
     height: fit-content;
     border: .1px solid #bbb;
 }
+
 #back-box-icon {
     width: inherit;
     height: 55px;
     position: fixed;
     z-index: 12;
 }
+
 #box-user-name-back {
     width: 100%;
     height: 55px;
@@ -17,6 +19,7 @@
     background: #fff;
     border-bottom: .1px solid rgba(173, 173, 173, 0.336);
 }
+
 #back {
     font-size: 21px;
     margin: 18px;
@@ -24,17 +27,21 @@
     padding: 5px;
     transition: .2s ease-in-out;
 }
+
 #back:hover {
     background: #e2e2e2c4;
     cursor: pointer;
 }
+
 #Tweets {
     margin-top: -18px;
 }
+
 #matin {
     margin-top: 2px;
     color: rgb(77, 77, 77);
 }
+
 #header {
     width: 100%;
     height: 200px;
@@ -42,16 +49,19 @@
     background-position: center;
     background-size: cover;
 }
+
 #user-box {
     width: 160px;
     margin: 20px;
     color: rgb(62, 73, 95);
     margin-top: 70px;
 }
+
 #user-img-box {
     width: 160px;
     margin-left: 20px;
 }
+
 #user-img-g {
     width: 100%;
     border-radius: 100px;
@@ -60,39 +70,48 @@
     transform: translateY(100px);
     z-index: 0;
 }
+
 #name-user {
     font-size: 26px;
     margin-bottom: -18px;
     color: #444;
 }
+
 #user-name-e {
     margin-left: 5px;
     margin-bottom: -8px;
 }
+
 #dateBox {
     display: flex;
     align-items: center;
     margin-top: -20px;
 }
+
 #date {
     margin-left: 5px;
 }
+
 #following-followers {
     margin-top: -20px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
+
 #following-followers:hover {
     text-decoration: underline;
 }
+
 #following {
     margin-right: 10px;
     margin-left: 5px;
 }
+
 #followers {
     margin-left: 5px;
 }
+
 .Follow {
     width: 120px;
     margin: 20px;
@@ -106,9 +125,11 @@
     cursor: pointer;
     transition: .3s ease-in-out;
 }
+
 .Follow:hover {
     background: #0188ffb7;
 }
+
 .Following {
     width: 120px;
     margin: 20px;
@@ -123,9 +144,11 @@
     cursor: pointer;
     transition: .3s ease-in-out;
 }
+
 #TweetsBox {
     display: flex;
 }
+
 #tweets {
     border: none;
     width: 200px;
@@ -137,9 +160,11 @@
     transition: .1s ease-in-out;
     border-bottom: .2px solid #bbb;
 }
+
 #tweets:hover {
     background: #e2e2e2c4;
 }
+
 #btn {
     border: none;
     width: 200px;
@@ -151,36 +176,43 @@
     cursor: pointer;
     border-bottom: .2px solid #bbb;
 }
+
 #btn:hover {
     background: #e2e2e2c4;
 }
+
 #more {
     font-size: 28px;
     border-radius: 50px;
     border: .5px solid #bbb;
     cursor: pointer;
 }
+
 #follow-box {
     float: right;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 #blue {
     width: 70px;
     border: 1px solid #0189ff;
 }
+
 #boxs {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+
 #profile-user {
     width: 100%;
     display: flex;
     border-bottom: .1px solid #bbb;
 }
+
 #profile_ {
     width: 50px;
     height: 50px;
@@ -190,17 +222,20 @@
     background-position: center;
     border-radius: 50px;
 }
+
 #names {
     display: flex;
     flex-direction: row;
     font-size: 9px;
     color: #444;
 }
+
 #name-user-r {
     font-weight: 500;
     margin-left: 10px;
     color: rgb(62, 73, 95);
 }
+
 #more-e {
     font-size: 28px;
 }
