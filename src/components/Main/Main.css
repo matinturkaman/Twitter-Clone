@@ -4,15 +4,20 @@
     border: .1px solid #bbb;
 }
 
+#back-box-icon {
+    width: inherit;
+    height: 55px;
+    position: fixed;
+    z-index: 12;
+}
+
 #box-user-name-back {
-    width: 51.6%;
+    width: 100%;
     height: 55px;
     font-size: 12px;
     display: flex;
-    position: fixed;
+    background: #fff;
     border-bottom: .1px solid rgba(173, 173, 173, 0.336);
-    background: white;
-    z-index: 10;
 }
 
 #back {
@@ -63,6 +68,7 @@
     border: 5px solid #ffffff;
     margin-bottom: -25px;
     transform: translateY(100px);
+    z-index: 0;
 }
 
 #name-user {
@@ -324,7 +330,11 @@
     flex-direction: row;
 }
 
-@media screen and (min-width: 320px) and (max-width: 465px) {
+#bold {
+    font-weight: bold;
+}
+
+@media screen and (min-width: 320px) and (max-width: 499px) {
     #Main {
         width: 400px;
     }
@@ -362,9 +372,30 @@
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 500px) and (max-width: 1005px) {
+    #Main {
+        width: 450px;
+    }
 
-    #box-user-name-back {
-        width: 91.1%;
+    #all {
+        width: 350px;
+    }
+
+    #name-user-r {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 50px;
+    }
+
+    #btn {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 100px;
+    }
+
+    #tweets {
+        width: 150px;
     }
 }

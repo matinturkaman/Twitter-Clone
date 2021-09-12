@@ -208,8 +208,14 @@
     text-decoration: underline;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 499px) {
     #right {
-        display: none;   
+        display: none;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 1005px) {
+    #right {
+        display: none;
     }
 }

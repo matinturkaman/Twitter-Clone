@@ -99,27 +99,56 @@
     color: #0189ff;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 425px) {
     #fixed {
         width: 80px;
     }
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 499px) {
     #fixed {
         width: 80px;
     }
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 375px) and (max-width: 425px) {
     #fixed {
         width: 25px;
     }
 }
 
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 425px) and (max-width: 525px) {
     #fixed {
         width: 0px;
     }
 }
 
+@media screen and (min-width: 361px) and (max-width: 407px) {
+    #fixed {
+        width: 5px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 846px) {
+    #fixed {
+        width: 0px;
+    }
+}
+
+@media screen and (min-width: 411px) and (max-width: 731px) {
+    #fixed {
+        width: 5px;
+    }
+}
+
+@media screen and (min-width: 758px) and (max-width: 762px) {
+    #fixed {
+        width: 1px;
+    }
+}
+
+@media screen and (min-width: 501PX) and (max-width: 1005PX) {
+    #fixed {
+        width: 80px;
+    }
+}

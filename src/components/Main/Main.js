@@ -17,7 +17,7 @@ const Main = () => {
 
   return (
     <div id="Main">
-      <div id="box-user-name-back-box">
+      <div id="back-box-icon">
         <div id="box-user-name-back">
           <BiArrowBack id="back" />
           <div>

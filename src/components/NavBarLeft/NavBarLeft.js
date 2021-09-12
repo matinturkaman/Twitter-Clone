@@ -19,35 +19,35 @@ const NavBarLeft = () => {
       </div>
       <button id="box">
         <BiHomeCircle id="icon" />
-        <p>Home</p>
+        <p id="text-navbar-left">Home</p>
       </button>
       <button id="box">
         <BiHash id="icon" />
-        <p>Explore</p>
+        <p id="text-navbar-left">Explore</p>
       </button>
       <button id="box">
         <IoNotificationsOutline id="icon" />
-        <p>notifications</p>
+        <p id="text-navbar-left">notifications</p>
       </button>
       <button id="box">
         <BiMessageSquareDetail id="icon" />
-        <p>Message</p>
+        <p id="text-navbar-left">Message</p>
       </button>
       <button id="box">
         <BiBookmark id="icon" />
-        <p>Bookmarks</p>
+        <p id="text-navbar-left">Bookmarks</p>
       </button>
       <button id="box">
         <RiFileList2Line id="icon" />
-        <p>Lists</p>
+        <p id="text-navbar-left">Lists</p>
       </button>
       <button id="box">
         <RiContactsFill id="icon" />
-        <p id="bold">Profile</p>
+        <p id="text-navbar-left" className="bold">Profile</p>
       </button>
       <button id="box">
         <CgMoreO id="icon" />
-        <p>More</p>
+        <p id="text-navbar-left">More</p>
       </button>
 
       <button id="Tweet">Tweet</button>
@@ -57,7 +57,7 @@ const NavBarLeft = () => {
           alt=""
           id="user-img"
         />
-        <div>
+        <div id="box-user-names">
           <p id="name">matinturkaman</p>
           <p id="user-name">@matinturkaman</p>
         </div>
